@@ -1,0 +1,17 @@
+/build/
+/.clickable/
+
+# Clickable
+/build/
+/.clickable/
+
+# Generated packages
+*.click
+
+# Backup files
+*.bak
+*~
+
+# Vim temporary files
+*.swp
+*.swo

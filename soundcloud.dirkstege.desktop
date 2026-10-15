@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=SoundCloud
+Exec=webapp-container --app-id="soundcloud.dirkstege_soundcloud.dirkstege_1.0.0" --webappUrlPatterns="https?://*.soundcloud.com/*,https?://soundcloud.com/*" --enable-media-hub-audio --store-session-cookies https://soundcloud.com/
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true

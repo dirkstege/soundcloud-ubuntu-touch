@@ -1,0 +1,15 @@
+{
+    "name": "soundcloud.dirkstege",
+    "description": "Unofficial SoundCloud WebApp for Ubuntu Touch",
+    "architecture": "$ENV{ARCH}",
+    "title": "SoundCloud",
+    "hooks": {
+        "soundcloud.dirkstege": {
+            "apparmor": "soundcloud.dirkstege.apparmor",
+            "desktop":  "soundcloud.dirkstege.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Dirk Stegemann <dirk@stegemann.de>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}
